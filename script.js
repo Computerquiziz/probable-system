@@ -1,3 +1,6 @@
+let currentQuestion = 0;
+let score = 0;
+let userAnswers = [];
 const questions = [
     {
         question: "Which language is used to create web pages?",
