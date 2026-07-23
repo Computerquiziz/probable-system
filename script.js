@@ -1,3 +1,25 @@
+const questions = [
+    {
+        question: "Which language is used to create web pages?",
+        options: ["HTML", "Python", "Java", "C++"],
+        answer: 0
+    },
+    {
+        question: "What does CPU stand for?",
+        options: [
+            "Central Processing Unit",
+            "Computer Processing Unit",
+            "Central Program Unit",
+            "Control Processing Unit"
+        ],
+        answer: 0
+    },
+    {
+        question: "Which software is used for presentations?",
+        options: ["MS Word", "MS PowerPoint", "Paint", "Notepad"],
+        answer: 1
+    }
+]
 let currentQuestion = 0;
 let score = 0;
 let userAnswers = [];
